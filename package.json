@@ -1,0 +1,48 @@
+{
+  "name": "simple-react-starter",
+  "version": "1.0.0",
+  "description": "Simple React Starter",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Quentin SOMAZZI",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browser-sync": "^1.9.0",
+    "browserify": "^11.1.0",
+    "del": "^1.1.0",
+    "gulp": "~3.8.11",
+    "gulp-add-src": "^0.2.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-compass": "^2.0.3",
+    "gulp-concat": "~2.5.2",
+    "gulp-minify-css": "^0.5.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-rename": "~1.2.0",
+    "gulp-ruby-sass": "^1.0.0-alpha.3",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "~1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.0.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "classnames": "^2.2.0",
+    "font-awesome": "^4.5.0",
+    "react": "^0.13.3",
+    "react-bootstrap": "^0.26.4",
+    "react-mixin": "^3.0.0",
+    "reflux": "^0.2.12"
+  },
+  "scripts": {
+    "start": "gulp publish",
+    "dev": "gulp dev"
+  }
+}
