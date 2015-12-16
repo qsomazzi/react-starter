@@ -4,8 +4,8 @@ Simple React Starter
 Installation
 ------------
 
-1) Run `npm install`
-2) Run `gulp dev`
+- Run `npm install`
+- Run `gulp dev`
 
 That's it !
 
